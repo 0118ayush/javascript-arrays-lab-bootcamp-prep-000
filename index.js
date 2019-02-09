@@ -30,18 +30,18 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
 }
 
-/*
+
 //Test 5
 
 var kittens = ["Milo", "Otis", "Garfield"]; 
 
 function appendKitten(name){
-  var newKittens = [kittens, ...name]
+  var newKittens = [...kittens, name]
   return newKittens
 }
 
-*/
 
+/*
 var kittens = ["Milo", "Otis", "Garfield"]; 
 
 function removeLastKitten(){
@@ -51,7 +51,7 @@ function removeLastKitten(){
 }
 
 
-
+*/
 
 
 
