@@ -59,14 +59,13 @@ function removeLastKitten(){
 }
 
 //Test 8 
-
-var kittens = ["Milo", "Otis", "Garfield"]; 
+ 
+var kittens = ["Milo", "Otis", "Garfield"];
  
 function removeFirstKitten(){
-  var newKittens = kittens.slice(0,1)
-  return newKittens
+  var newKittens = kittens.slice(0,1);
+  return newKittens;
 }
- 
 
 
 
