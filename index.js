@@ -40,6 +40,16 @@ function appendKitten(name){
   return newKittens
 }
 
+//Test 6
+
+var kittens = ["Milo", "Otis", "Garfield"]; 
+
+function prependKitten(name){
+  var newKittens = [name, ...kittens]
+  return newKittens
+}
+
+
 
 /*
 var kittens = ["Milo", "Otis", "Garfield"]; 
